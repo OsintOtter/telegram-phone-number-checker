@@ -20,7 +20,7 @@ cd telegram-phone-number-checker
 pip install -r requirements.txt
 python telegram-phone-number-checker/main.py
 ```
-Otters Notes
+
 It is generally a good idea to install the requirements in a virtual enviornment to avoid package conflicts. 
 ```bash
 python3 -m venv venv
