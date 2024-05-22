@@ -28,6 +28,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 chmod+x execute.sh
 ./execute.sh
+
+Execute.sh is a file to store your API key and hashes. Executing the tool from this script allows for a faster and more streamlined experience, the .env file method included currently is not functional for me, but YMMV. Simply open the file and add your details. 
+```bash
+vim execute.sh
+#enterDetails
+````
+
 ```
 ## Requirements
 To run it, you need:
